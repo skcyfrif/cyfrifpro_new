@@ -1,0 +1,502 @@
+<style>
+   @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+   
+.feature-content{
+    margin-top: 25px;
+} 
+  
+body {
+    font-family: 'Roboto';font-size: 16px;
+}
+
+p{ text-align:justify;}
+
+.aboutus-section {
+    padding: 90px 0;
+}
+.aboutus-title {
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin: 0 0 30px;
+    padding: 0 0 11px;
+    position: relative;
+    text-transform: uppercase;
+    color: #000;
+}
+.aboutus-title::after {
+    background: #ff002c none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 54px;
+}
+.aboutus-text {
+    color: #606060;
+    font-size: 13px;
+    line-height: 22px;
+    margin: 0 0 35px;
+}
+
+a:hover, a:active {
+    color: #ffb901;
+    text-decoration: none;
+    outline: 0;
+}
+.aboutus-more {
+    border: 1px solid #ff002c;
+    border-radius: 25px;
+    color: #ff002c;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    padding: 7px 20px;
+    text-transform: uppercase;
+}
+.feature .feature-box .iconset {
+    background: #fff none repeat scroll 0 0;
+    float: left;
+    position: relative;
+    width: 18%;
+}
+.feature .feature-box .iconset::after {
+    background: #ff002c none repeat scroll 0 0;
+    content: "";
+    height: 150%;
+    left: 43%;
+    position: absolute;
+    top: 100%;
+    width: 1px;
+}
+
+.feature .feature-box .feature-content h4 {
+    color: #00A99D !important;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0 0 5px;
+}
+
+
+.feature .feature-box .feature-content {
+    float: left;
+    padding-left: 28px;
+    width: 78%;
+}
+.feature .feature-box .feature-content h4 {
+    color: #0f0f0f;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0 0 5px;
+}
+.feature .feature-box .feature-content p {
+    color: #606060;
+    font-size: 13px;
+    line-height: 22px;
+	
+}
+.icon {
+    color : #f4b841;
+    padding:0px;
+    font-size:40px;
+    border: 1px solid #ff002c;
+    border-radius: 100px;
+    color: #ff002c;
+    font-size: 28px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    width: 70px;
+    margin-bottom: 15px;
+}
+.more-details {
+	display:inline-block;
+	background:#ff002c;
+	color:#FFF;
+	font-size:16px;
+	padding:10px 30px;
+	border-radius:6px;
+	font-weight:600;	
+}
+
+.aboutus h3 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.tds-tbl tr,td{ border:1px solid #ccc; padding:10px;}
+  
+.aboutus li {
+    list-style: disc;
+    margin-left: 30px;
+    line-height: 26px;
+}
+
+</style>
+
+<div class="aboutus-section">
+        <div class="container">
+            <div class="row" style="margin-top: 50px;margin-bottom: 50px;">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="aboutus">
+                    <h2 class="aboutus-title">INDIVIDUAL TAX SERVICES</h2>
+                        
+<h3>Income Tax Slabs 2020 & Tax Rates in India for FY 2020-21 – Budget 2020 Revised IT Slabs (AY 2021-22)</h3>
+  
+<p>In India, income tax is levied on individual taxpayers on the basis of a slab system where different tax rates have been prescribed for different slabs and such tax rates keep increasing with an increase in the income slab.</p>
+
+<p>Such tax slabs tend to undergo a change during every budget.</p>
+
+<p>Further, Budget 2020 has announced a new income tax regime following which individuals will have the option to pay taxes as per new tax slabs from FY 2020-21 onwards.</p>
+
+<p><strong>There are three categories of individual taxpayers:</strong></p>
+
+<ul>
+<li>Individuals (below the age of 60 years) which includes residents as well as non-residents</li>
+<li>Resident Senior citizens (60 years and above but below 80 years of age)</li>
+<li>Resident Super senior citizens (above 80 years of age)</li>
+</ul>
+
+<p><strong>Income Tax Slabs for individuals below 60 years of age under new tax regime – Applicable to FY 2020-21 (AY 2021-22)</strong></p>
+<table class="tds-tbl" width="100%" border="1">
+    <tr>
+        <td><strong>Income Tax Slab</strong></td>
+        <td><strong>Tax Rate</strong></td>
+    </tr>
+	<tr>
+        <td><strong>Up to Rs 2.5 lakh</strong></td>
+        <td><strong>NIL</strong></td>
+    </tr>
+    <tr>
+        <td>Rs 5 lakh to Rs 7.5 lakh</td>
+        <td>10%</td>
+    </tr>
+    <tr>
+        <td>Rs 7.5 lakh to Rs 10 lakh</td>
+        <td>15%</td>
+    </tr>
+	<tr>
+        <td>Rs 10 lakh to Rs 12.5 lakh</td>
+        <td>20%</td>
+    </tr>
+	<tr>
+        <td>Rs 12.5 lakh to Rs 15 lakh</td>
+        <td>25%</td>
+    </tr>
+    <tr>
+        <td>Rs 15 lakh and above</td>
+        <td>30%</td>
+    </tr>
+</table>
+<p>&nbsp;</p>
+<p>·  The tax calculated on the basis of such rates will be subject to health and education cess of 4%.</p>
+
+<p>·  Any individual opting to be taxed under the new tax regime from FY 2020-21 onwards will have to give up certain exemptions and deductions.</p>
+
+<p>·  Here is the list of exemptions and deductions that a taxpayer will have to give up while choosing the new tax regime.</p>
+
+<p>1. Leave Travel Allowance </p>
+
+<p>2. House Rent Allowance </p>
+
+<p>3. Conveyance</p>
+
+<p>4. Daily expenses in the course of employment</p>
+
+<p>5. Relocation allowance</p>
+
+<p>6. Helper allowance</p>
+
+<p>7. Children education allowance</p>
+
+<p>8. Other special allowances [Section 10(14)]</p>
+
+<p>9. Standard deduction</p>
+
+<p>10. Professional tax</p>
+
+<p>11. Interest on housing loan (Section 24)</p>  
+
+<p>12. Chapter VI-A deduction (80C,80D, 80E and so on) (Except Section 80CCD(2) and 80JJA)</p>
+
+<p>· Points to remember while opting for the new tax regime:</p>
+
+<p>1. Option to be exercised on or before the due date of filing return of income for AY 2021-22</p>
+
+<p>2. In case of a taxpayer having business income, the option once exercised can be withdrawn only once. Further, if the taxpayer withdraws the option, he will never be able to opt-in the option again.</p>
+
+<p>According to the current income tax laws in India, the income tax rate on resident individuals varies based on their age. There are different tax slabs applicable to the individuals for the financial year 2018-19 and 2019-20. For instance, a resident individual, aged below 60 years, with an income less than Rs 2.5 lacs is exempt from paying income tax.</p> 
+
+<p>Given below are the tables for the latest income tax slabs for FY 2018-19 and FY 2019-20.</p>
+
+<h3>Income Tax Slabs & Rates for Individual Tax Payers & HUF (Less Than 60 Years Old) for FY 2019-20 – Part I</h3>
+
+<table class="tds-tbl" width="100%" border="1">
+    <tr>
+	    <td><strong>Income Tax Slab</strong></td>
+        <td><strong>Tax Rate for Individual & HUF Below the Age Of 60 Years</strong></td>
+    </tr>
+    <tr>
+        <td>Up to ₹2,50,000*</td>
+        <td>Nil</td>
+    </tr>
+	<tr>
+        <td>₹2,50,001 to ₹5,00,000</td>
+        <td>5% of total income exceeding ₹2,50,000</td>
+    </tr>
+	<tr>
+        <td>₹5,00,001 to ₹10,00,000</td>
+        <td>₹12,500 + 20% of total income exceeding ₹5,00,000</td>
+    </tr>
+	<tr>
+        <td>Above ₹10,00,000</td>
+        <td>₹1,12,500 + 30% of total income exceeding ₹10,00,000</td>
+    </tr>
+</table>
+<p>&nbsp;</p>
+<p>· No tax for individuals with income less than ₹ 2,50,000</p>
+
+<p>· 0%-5% tax with income ₹ 2.5 lacs to 5 lacs for different age groups</p>
+
+<p>· 20% tax with income ₹ 5 lacs to 10 lacs</p>
+
+<p>· 30% tax with income above ₹ 10 lacs</p>
+
+<p>· A tax rebate under section 87A is allowed to individual taxpayers a maximum amount of:
+
+– Rs 2,500 for total income up to Rs 3.5 lakh for FY 2018-19
+
+– Rs 12,500 for total income up to Rs 5 lakh for FY 2019-20</p>
+
+<p>· Investments upto ₹ 1.5 lacs under Sec 80C can save ₹ 46,800 in taxes.<strong>Invest Now</strong></p>
+
+<p>Note : An additional 4% Health & education cess will be applicable on the tax amount calculated as above.</p>
+
+<h3>Income Tax Slabs for Senior Citizens (60 Years Old Or More but Less than 80 Years Old) for FY 2019-20 – Part II</h3>
+
+<table class="tds-tbl" width="100%" border="1">
+    <tr>
+	    <td><strong>Income Tax Slabs</strong></td>
+        <td><strong>Tax Rate for Senior cetizens aged 60 Years But Less than 80 Years</strong></td>
+    </tr>
+    <tr>
+        <td>Income up to Rs 3,00,000*</td>
+        <td>No tax</td>
+    </tr>
+	<tr>
+        <td>Income from Rs 3,00,000 – Rs 5,00,000</td>
+        <td>5%</td>
+    </tr>
+	<tr>
+        <td>Income from Rs 5,00,000 – 10,00,000</td>
+        <td>20%</td>
+    </tr>
+	<tr>
+        <td>Income more than Rs 10,00,000</td>
+        <td>30%</td>
+    </tr>
+</table>
+<p>&nbsp;</p>
+<p>Note : An additional 4% Health & education cess will be applicable on the tax amount calculated as above.</p>
+
+<h3>Income Tax Slabs for Super Senior Citizens(80 Years Old Or More) for FY 2019-20 – Part III</h3>
+
+<table class="tds-tbl" width="100%" border="1">
+    <tr>
+	    <td><strong>Income Tax Slabs</strong></td>
+        <td><strong>Tax Rate for Super Senior Citizens (Aged 80 Years And Above)</strong></td>
+    </tr>
+    <tr>
+        <td>Income up to Rs 5,00,000*</td>
+        <td>No tax</td>
+    </tr>
+	<tr>
+        <td>Income from Rs 5,00,000 – 10,00,000</td>
+        <td>20%</td>
+    </tr>
+	<tr>
+        <td>Income more than Rs 10,00,000</td>
+        <td>30%</td>
+    </tr>
+</table>
+<p>&nbsp;</p>
+<p>Note : An additional 4% Health & education cess will be applicable on the tax amount calculated as above.</p>
+
+<h3>Surcharge applicable to the individuals covered in Part I, II and III</h3>
+
+<table class="tds-tbl" width="100%" border="1">
+    <tr>
+	    <td><strong>Income limit</strong></td>
+        <td><strong>Surcharge Rate on the amount of income tax</strong></td>
+    </tr>
+    <tr>
+        <td>Net income exceeds Rs.50 Lakhs but doesn’t exceed Rs. 1 Crore</td>
+        <td>10%</td>
+    </tr>
+	<tr>
+        <td>Net income exceeds Rs.1 Crore </td>
+        <td>15%</td>
+    </tr>
+</table>
+<p>&nbsp;</p>
+<h3>Income Tax Slabs for Domestic Companies for FY 2018-19 – Part IV</h3>
+
+<table class="tds-tbl" width="100%" border="1">
+    <tr>
+	    <td><strong>Turnover Particulars</strong></td>
+        <td><strong>Tax Rate</strong></td>
+    </tr>
+    <tr>
+        <td>Gross turnover upto 250 Cr. in the FY 2016-17</td>
+        <td>25%</td>
+    </tr>
+	<tr>
+        <td>Gross turnover exceeding 250 Cr. in the FY 2016-17 </td>
+        <td>30%</td>
+    </tr>
+</table>
+<p>&nbsp;</p>
+<h3>In addition cess and surcharge is levied as follows: Cess: 4% of corporate tax</h3>
+
+<p>Surcharge applicable:</p>
+
+<table class="tds-tbl" width="100%" border="1">
+    <tr>
+	    <td><strong>Income Limit</strong></td>
+        <td><strong>Surcharge Rate on the amount of income tax</strong></td>
+    </tr>
+    <tr>
+        <td>Net income exceeds Rs.1 Crore but doesn’t exceed Rs.10 Crore</td>
+        <td>7%</td>
+    </tr>
+	<tr>
+        <td>Net income exceeds Rs.10 Crore </td>
+        <td>12%</td>
+    </tr>
+</table>
+<p>&nbsp;</p>
+<table class="tds-tbl" width="100%" border="1">
+    <tr>
+	    <td><strong>Cyfrifpro here to help</strong></td>
+        <td></td>
+		<td></td>
+		<td></td>
+		
+    </tr>
+    <tr>
+	    <td><strong>Get an expert CA to calculate your taxes and e-file tax return on your behalf</strong></td>
+		<td></td>
+		<td></td>
+		<td></td>
+    </tr>
+    <tr>
+        <td>Choose your category</td>
+        <td>House property / Multiple Form-16</td>
+		<td>Capital gains income</td>
+		<td>Resident with Global income/NRI</td>
+		
+    </tr>
+	<tr>
+        <td></td>
+        <td>Contact Now</td>
+		<td>Contact Now</td>
+		<td>Contact Now</td>
+		</tr>
+	<tr>
+        <td>Single Form 16</td>
+        <td>Y</td>
+		<td>Y</td>
+		<td>Y</td>
+		</tr>
+	<tr>
+        <td>Multiple Form 16 ( Same financial Year )</td>
+        <td>Y</td>
+		<td>Y</td>
+		<td>Y</td>
+		</tr>
+	
+	
+	<tr>
+        <td>House Property Income</td>
+        <td>Y</td>
+		<td>Y</td>
+		<td>Y</td>
+		</tr>
+		
+		<tr>
+        <td>PF Withdrawal</td>
+        <td>Y</td>
+		<td>Y</td>
+		<td>Y</td>
+		</tr>
+		
+		<tr>
+        <td>Savings A/c, Dividends, Exempt interest</td>
+        <td>Y</td>
+		<td>Y</td>
+		<td>Y</td>
+		</tr>
+		
+		<tr>
+        <td>NRE A/c, NRO A/c</td>
+        <td></td>
+		<td></td>
+		<td>Y</td>
+		</tr>
+		
+		<tr>
+        <td>FD Interest</td>
+        <td>Y</td>
+		<td>Y</td>
+		<td>Y</td>
+		</tr>
+		
+		<tr>
+        <td>Brought Forward Losses</td>
+        <td></td>
+		<td>Y</td>
+		<td>Y</td>
+		</tr>
+		
+		<tr>
+        <td>Capital Gain</td>
+        <td></td>
+		<td>Y</td>
+		<td>Y</td>
+		</tr>
+		
+		<tr>
+        <td>Foreign Income</td>
+        <td></td>
+		<td></td>
+		<td>Y</td>
+		</tr>
+		
+		<tr>
+        <td>Income from Lottery/Gaming</td>
+        <td></td>
+		<td>Y</td>
+		<td>Y</td>
+		</tr>
+		
+		<tr>
+        <td>Donation</td>
+        <td>Y</td>
+		<td>Y</td>
+		<td>Y</td>
+		</tr>
+		
+</table>
+<p>&nbsp;</p>
+<p>*An additional GST of 18% will be charged on the pricing</p>
+
+<a class="more-details" href="http://www.cyfrif.com/contact-us">For more details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

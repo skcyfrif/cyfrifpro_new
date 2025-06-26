@@ -1,0 +1,71 @@
+<style>
+
+.row-fluid .span12 {
+  margin-left:0 !important;
+}
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+</style>
+  <div class="container-fluid">
+    <div class="row-fluid"> 
+      <div class="span12">
+        <a href="<?php echo base_url();?>inventory/add-attribute" ><button class="btn btn-success btn-sm pull-right">+ Add</button></a>
+        <div class="widget-box">
+          <div class="widget-title"> <span class="icon"><i class="icon-th"></i></span>
+            <h5>List</h5>
+          </div>
+
+          <div class="widget-content nopadding">
+            <table class="table table-bordered data-table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Title</th>
+                  <th>parents</th>                  
+                  <th>Date</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <?php 
+
+                if($attr){
+                $i=1; foreach($attr as $key){ 
+				
+					$query = $this->db->query("SELECT * FROM tbl_attributes WHERE id='".$key->parents."'");
+        			$parnt=$query->result();      
+				?>
+                    <tr class="gradeX">
+                        <td class="center"><?php echo $key->id;?></td>
+                        <td><?php echo $key->name;?></td>
+                        <td><?php echo ($parnt[0]->name !='') ? $parnt[0]->name : '--';?></td>                      
+                      	<td> 
+                            <?php    
+                                    $date=explode(' ',$key->created);
+                                    echo date('d M Y',strtotime($date[0]));
+                            ?>
+                        </td>
+                        <td class="td-actions">
+                            <a href="<?php echo base_url();?>inventory/add-attribute/<?php echo $key->id;?>" class="btn btn-xs btn-info">Edit</a>                            
+                            <a onclick="deleteThis(this)" data-id="<?php echo $key->id; ?>" data-tblName="tbl_attributes" data-returnURL="<?php echo $this->uri->segment(1);?>/<?php echo $this->uri->segment(2); ?>" class="btn btn-xs btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                <?php $i++; } } else { ?>
+
+                    <tr class="gradeX">
+                        <td class="center" colspan="5">No data found</td>
+                    </tr>
+
+                <?php } ?>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
