@@ -1,0 +1,3 @@
+define( 'AUTH_KEY',         '9}2N zs4:e-,Y_/}>V+Dyiy=r;=Vn2q>757[0[io >(])IHKRPYuqP05vlm]~~0-' );
+
+ABSPATH
